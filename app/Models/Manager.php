@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Manager extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+      'user_id',
+      'last_name',
+      'first_name'
+    ];
 }

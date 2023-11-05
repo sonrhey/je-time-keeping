@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('time_records', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('teacher_id')
+                  ->constrained()
+                  ->onUpdate('cascade')
+                  ->onDelete('cascade');
+            $table->datetime('time_logged_in');
             $table->timestamps();
         });
     }

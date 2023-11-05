@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class TimeRecord extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+      'teacher_id',
+      'time_logged_in'
+    ];
 }
