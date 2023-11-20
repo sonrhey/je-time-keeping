@@ -13,4 +13,19 @@ class ManagersTeacher extends Model
       'teacher_id',
       'manager_id'
     ];
+
+    public function teacher()
+    {
+      return $this->belongsTo(Teacher::class, 'teacher_id');
+    }
+
+    public function manager()
+    {
+      return $this->belongsTo(Manager::class,'manager_id');
+    }
+
+    public function scopeGetTeachersByManager($query, $managerId)
+    {
+      return $query->where('manager_id', $managerId);
+    }
 }

@@ -9,6 +9,23 @@ window.$ = $;
 import axios from 'axios';
 window.axios = axios;
 
+import JSZip from 'jszip';
+import PdfPrinter from 'pdfmake';
+import DataTable from 'datatables.net-bs5';
+import 'datatables.net-bs5/css/dataTables.bootstrap5.css';
+import 'datatables.net-buttons-bs5';
+import 'datatables.net-buttons/js/buttons.html5.mjs';
+// import Datetim from 'datatables.net-datetime';
+import 'datatables.net-fixedheader-bs5';
+import 'datatables.net-responsive-bs5';
+import 'datatables.net-searchpanes-bs5';
+import 'datatables.net-select-dt';
+
+window.JSZip = JSZip;
+window.PdfPrinter = PdfPrinter;
+window.DataTable = DataTable;
+// window.DateTime = DateTime;
+
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /**

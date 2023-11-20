@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Navigations\NavigationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/login', function () {
-  return view('authentication.login');
-});
+Route::get("/", [NavigationController::class,"index"]);
+Route::get("time-in", [NavigationController::class, "timeIn"]);
+Route::get("/login", [NavigationController::class,"login"]);
+Route::get("/admin", [NavigationController::class,"adminLogin"]);
+Route::get("/admin/login", [NavigationController::class,"adminLogin"]);
+Route::get("/admin/dashboard", [NavigationController::class,"adminDashboard"])->name("dashboard");
+Route::get("/admin/reports", [NavigationController::class,"reports"])->name("reports");
+Route::get("/admin/users", [NavigationController::class,"users"])->name("users");
