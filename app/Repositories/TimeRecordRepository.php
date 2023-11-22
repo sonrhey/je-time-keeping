@@ -39,4 +39,17 @@ class TimeRecordRepository implements TimeRecordRepositoryInterface
   {
     return TimeRecord::getTimeRecordCustom($teacherId, $requestDate)->get();
   }
+  public function checkTimeRecordCustom($teacherId, $date)
+  {
+    $timeRecord = TimeRecord::findRecordByTeacherIdAndDate($teacherId, $date)
+                            ->first();
+    $isTimeIn = !empty($timeRecord);
+    return $isTimeIn;
+  }
+  public function getTimeLoggedInCustom($teacherId, $date)
+  {
+    $timeRecord = TimeRecord::findRecordByTeacherIdAndDate($teacherId, $date)
+    ->first();
+    return $timeRecord;
+  }
 }

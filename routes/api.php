@@ -27,7 +27,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
   Route::get('/admin/shifts', [ShiftController::class, 'index']);
   Route::get('/admin/my-teachers', [TeachersController::class, 'getMyTeachers']);
   Route::post('/admin/teachers-logged-in', [DashboardController::class, 'teachersLoggedInToday']);
-  Route::post('/admin/time-record-daily', [ReportsController::class, 'reports']);
+  Route::post('/admin/reports', [ReportsController::class, 'reports']);
 
   Route::post('/teacher/time-in', [TimeInController::class, 'timeIn']);
   Route::post('/teacher/check-time-in', [TimeInController::class, 'checkTimeIn']);

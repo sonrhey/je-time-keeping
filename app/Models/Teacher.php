@@ -25,4 +25,9 @@ class Teacher extends Model
     {
       return $this->belongsTo(User::class, 'user_id');
     }
+
+    public function teacherManager()
+    {
+      return $this->hasOne(ManagersTeacher::class, 'teacher_id');
+    }
 }

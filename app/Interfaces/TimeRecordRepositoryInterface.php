@@ -11,4 +11,6 @@ interface TimeRecordRepositoryInterface
   public function timeRecordWeekly($teacherId);
   public function timeRecordMonthly($teacherId);
   public function timeRecordCustom($teacherId, $requestDate);
+  public function checkTimeRecordCustom($teacherId, $date);
+  public function getTimeLoggedInCustom($teacherId, $date);
 }

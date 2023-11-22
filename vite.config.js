@@ -16,6 +16,7 @@ export default defineConfig({
         'resources/js/admin/index.js',
         'resources/js/admin/pages/dashboard/index.js',
         'resources/js/admin/pages/users/index.js',
+        'resources/js/admin/pages/reports/index.js',
         'resources/js/admin/pages/login/index.js',
         'resources/js/teacher/pages/login/index.js',
         'resources/js/teacher/pages/time-in/index.js',

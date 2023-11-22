@@ -15,6 +15,16 @@ class TimeRecord extends Model
       'time_logged_in'
     ];
 
+    public function teacher() {
+      return $this->belongsTo(Teacher::class, 'teacher_id');
+    }
+
+    public function scopeFindRecordByTeacherIdAndDate($query, $teacherId, $date)
+    {
+      return $query->where('teacher_id', $teacherId)
+                   ->whereDate('time_logged_in', $date);
+    }
+
     public function scopeFindRecordByTeacherId($query, $teacherId)
     {
       return $query->where('teacher_id', $teacherId);
