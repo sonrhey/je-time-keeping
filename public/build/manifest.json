@@ -8,8 +8,8 @@
       "_index-559f946c.js"
     ]
   },
-  "_api-base-25da54c4.js": {
-    "file": "assets/api-base-25da54c4.js"
+  "_api-base-c4b9bb19.js": {
+    "file": "assets/api-base-c4b9bb19.js"
   },
   "_api-token-faa9c944.js": {
     "file": "assets/api-token-faa9c944.js"
@@ -80,9 +80,9 @@
     "src": "resources/js/admin/index.js"
   },
   "resources/js/admin/pages/dashboard/index.js": {
-    "file": "assets/index-eeadfce8.js",
+    "file": "assets/index-46787627.js",
     "imports": [
-      "_api-base-25da54c4.js",
+      "_api-base-c4b9bb19.js",
       "_services-f2e5a5e5.js",
       "_moment-fbc5633a.js",
       "_api-token-faa9c944.js"
@@ -91,12 +91,12 @@
     "src": "resources/js/admin/pages/dashboard/index.js"
   },
   "resources/js/admin/pages/login/index.js": {
-    "file": "assets/index-6ba8927c.js",
+    "file": "assets/index-ae487278.js",
     "imports": [
       "_roles-57959868.js",
       "resources/js/authentication/index.js",
       "_axios-82afda87.js",
-      "_api-base-25da54c4.js",
+      "_api-base-c4b9bb19.js",
       "_api-token-faa9c944.js",
       "_routes-f0a6409b.js",
       "_alerts-9c687a37.js",
@@ -107,9 +107,9 @@
     "src": "resources/js/admin/pages/login/index.js"
   },
   "resources/js/admin/pages/reports/index.js": {
-    "file": "assets/index-bc23f078.js",
+    "file": "assets/index-598ee44d.js",
     "imports": [
-      "_api-base-25da54c4.js",
+      "_api-base-c4b9bb19.js",
       "_services-f2e5a5e5.js",
       "_index-559f946c.js",
       "_moment-fbc5633a.js",
@@ -120,11 +120,11 @@
     "src": "resources/js/admin/pages/reports/index.js"
   },
   "resources/js/admin/pages/users/index.js": {
-    "file": "assets/index-32b74247.js",
+    "file": "assets/index-09846c74.js",
     "imports": [
       "_roles-57959868.js",
       "_axios-82afda87.js",
-      "_api-base-25da54c4.js",
+      "_api-base-c4b9bb19.js",
       "_services-f2e5a5e5.js",
       "_alerts-9c687a37.js",
       "_api-token-faa9c944.js",
@@ -151,11 +151,11 @@
     "src": "resources/js/app.js"
   },
   "resources/js/authentication/index.js": {
-    "file": "assets/index-ba24e5aa.js",
+    "file": "assets/index-a879aaf6.js",
     "imports": [
       "_roles-57959868.js",
       "_axios-82afda87.js",
-      "_api-base-25da54c4.js",
+      "_api-base-c4b9bb19.js",
       "_api-token-faa9c944.js",
       "_routes-f0a6409b.js",
       "_alerts-9c687a37.js",
@@ -166,12 +166,12 @@
     "src": "resources/js/authentication/index.js"
   },
   "resources/js/teacher/pages/login/index.js": {
-    "file": "assets/index-844010aa.js",
+    "file": "assets/index-e5f71bc9.js",
     "imports": [
       "_roles-57959868.js",
       "resources/js/authentication/index.js",
       "_axios-82afda87.js",
-      "_api-base-25da54c4.js",
+      "_api-base-c4b9bb19.js",
       "_api-token-faa9c944.js",
       "_routes-f0a6409b.js",
       "_alerts-9c687a37.js",
@@ -182,12 +182,12 @@
     "src": "resources/js/teacher/pages/login/index.js"
   },
   "resources/js/teacher/pages/time-in/index.js": {
-    "file": "assets/index-21f51fc2.js",
+    "file": "assets/index-b1a7a35f.js",
     "imports": [
       "_routes-f0a6409b.js",
       "_time-bcf414b3.js",
       "_axios-82afda87.js",
-      "_api-base-25da54c4.js",
+      "_api-base-c4b9bb19.js",
       "_services-f2e5a5e5.js",
       "_alerts-9c687a37.js",
       "_api-token-faa9c944.js",
