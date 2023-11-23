@@ -1,0 +1,1 @@
+$(()=>{let o=$(".current-time");const e=()=>{const t=new Date,s=t.getHours()%12||12,c=t.getMinutes(),r=t.getSeconds(),u=t.getHours()>=12?"PM":"AM",a=`${s}:${n(c)}:${n(r)} ${u}`;o.text(a)},n=t=>(t<10?"0":"")+t;e(),setInterval(e,1e3)});

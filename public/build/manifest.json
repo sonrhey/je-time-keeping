@@ -1,0 +1,206 @@
+{
+  "__commonjsHelpers-725317a4.js": {
+    "file": "assets/_commonjsHelpers-725317a4.js"
+  },
+  "_alerts-9c687a37.js": {
+    "file": "assets/alerts-9c687a37.js",
+    "imports": [
+      "_index-559f946c.js"
+    ]
+  },
+  "_api-base-25da54c4.js": {
+    "file": "assets/api-base-25da54c4.js"
+  },
+  "_api-token-faa9c944.js": {
+    "file": "assets/api-token-faa9c944.js"
+  },
+  "_axios-82afda87.js": {
+    "file": "assets/axios-82afda87.js"
+  },
+  "_index-559f946c.js": {
+    "css": [
+      "assets/index-4265efd4.css"
+    ],
+    "file": "assets/index-559f946c.js",
+    "imports": [
+      "__commonjsHelpers-725317a4.js"
+    ]
+  },
+  "_moment-fbc5633a.js": {
+    "file": "assets/moment-fbc5633a.js"
+  },
+  "_roles-57959868.js": {
+    "file": "assets/roles-57959868.js"
+  },
+  "_routes-f0a6409b.js": {
+    "file": "assets/routes-f0a6409b.js"
+  },
+  "_services-f2e5a5e5.js": {
+    "file": "assets/services-f2e5a5e5.js",
+    "imports": [
+      "_api-token-faa9c944.js"
+    ]
+  },
+  "_time-bcf414b3.js": {
+    "file": "assets/time-bcf414b3.js"
+  },
+  "index.css": {
+    "file": "assets/index-4265efd4.css",
+    "src": "index.css"
+  },
+  "resources/css/admin/dashboard.css": {
+    "file": "assets/dashboard-ff95d65f.css",
+    "isEntry": true,
+    "src": "resources/css/admin/dashboard.css"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-41e0c2a8.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/css/authentication/index.css": {
+    "file": "assets/index-96ea3f23.css",
+    "isEntry": true,
+    "src": "resources/css/authentication/index.css"
+  },
+  "resources/css/time-in/index.css": {
+    "file": "assets/index-c395b632.css",
+    "isEntry": true,
+    "src": "resources/css/time-in/index.css"
+  },
+  "resources/js/admin/index.js": {
+    "file": "assets/index-a4bf4c0f.js",
+    "imports": [
+      "_time-bcf414b3.js",
+      "_routes-f0a6409b.js",
+      "_api-token-faa9c944.js",
+      "_roles-57959868.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/admin/index.js"
+  },
+  "resources/js/admin/pages/dashboard/index.js": {
+    "file": "assets/index-eeadfce8.js",
+    "imports": [
+      "_api-base-25da54c4.js",
+      "_services-f2e5a5e5.js",
+      "_moment-fbc5633a.js",
+      "_api-token-faa9c944.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/admin/pages/dashboard/index.js"
+  },
+  "resources/js/admin/pages/login/index.js": {
+    "file": "assets/index-6ba8927c.js",
+    "imports": [
+      "_roles-57959868.js",
+      "resources/js/authentication/index.js",
+      "_axios-82afda87.js",
+      "_api-base-25da54c4.js",
+      "_api-token-faa9c944.js",
+      "_routes-f0a6409b.js",
+      "_alerts-9c687a37.js",
+      "_index-559f946c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/admin/pages/login/index.js"
+  },
+  "resources/js/admin/pages/reports/index.js": {
+    "file": "assets/index-bc23f078.js",
+    "imports": [
+      "_api-base-25da54c4.js",
+      "_services-f2e5a5e5.js",
+      "_index-559f946c.js",
+      "_moment-fbc5633a.js",
+      "_api-token-faa9c944.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/admin/pages/reports/index.js"
+  },
+  "resources/js/admin/pages/users/index.js": {
+    "file": "assets/index-32b74247.js",
+    "imports": [
+      "_roles-57959868.js",
+      "_axios-82afda87.js",
+      "_api-base-25da54c4.js",
+      "_services-f2e5a5e5.js",
+      "_alerts-9c687a37.js",
+      "_api-token-faa9c944.js",
+      "_index-559f946c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/admin/pages/users/index.js"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-a6ff5d7c.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "assets/app-a6ff5d7c.css"
+    ],
+    "file": "assets/app-e34793ad.js",
+    "imports": [
+      "__commonjsHelpers-725317a4.js",
+      "_axios-82afda87.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/authentication/index.js": {
+    "file": "assets/index-ba24e5aa.js",
+    "imports": [
+      "_roles-57959868.js",
+      "_axios-82afda87.js",
+      "_api-base-25da54c4.js",
+      "_api-token-faa9c944.js",
+      "_routes-f0a6409b.js",
+      "_alerts-9c687a37.js",
+      "_index-559f946c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/authentication/index.js"
+  },
+  "resources/js/teacher/pages/login/index.js": {
+    "file": "assets/index-844010aa.js",
+    "imports": [
+      "_roles-57959868.js",
+      "resources/js/authentication/index.js",
+      "_axios-82afda87.js",
+      "_api-base-25da54c4.js",
+      "_api-token-faa9c944.js",
+      "_routes-f0a6409b.js",
+      "_alerts-9c687a37.js",
+      "_index-559f946c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/teacher/pages/login/index.js"
+  },
+  "resources/js/teacher/pages/time-in/index.js": {
+    "file": "assets/index-21f51fc2.js",
+    "imports": [
+      "_routes-f0a6409b.js",
+      "_time-bcf414b3.js",
+      "_axios-82afda87.js",
+      "_api-base-25da54c4.js",
+      "_services-f2e5a5e5.js",
+      "_alerts-9c687a37.js",
+      "_api-token-faa9c944.js",
+      "_roles-57959868.js",
+      "_index-559f946c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/teacher/pages/time-in/index.js"
+  },
+  "resources/js/time-in/index.js": {
+    "file": "assets/index-8c394af5.js",
+    "isEntry": true,
+    "src": "resources/js/time-in/index.js"
+  }
+}

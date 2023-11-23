@@ -1,0 +1,1 @@
+const i=()=>({run:()=>{$(()=>{let o=$(".current-time");const e=()=>{const t=new Date,s=t.getHours()%12||12,r=t.getMinutes(),c=t.getSeconds(),u=t.getHours()>=12?"PM":"AM",a=`${s}:${n(r)}:${n(c)} ${u}`;o.text(a)},n=t=>(t<10?"0":"")+t;e(),setInterval(e,1e3)})}});export{i as t};
